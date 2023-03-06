@@ -108,7 +108,7 @@ jobs:
         with:
           config-inline: |
             [worker.oci]
-              max-parallelism = 2
+              max-parallelism = 1
 
       - name: Matrix Build and push demo images
         uses: docker/build-push-action@v4.0.0
